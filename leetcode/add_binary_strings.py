@@ -6,7 +6,7 @@ class Solution(object):
         """
         Add binary strings
         :param bin_strs: zero or more strings representing a binary number
-        :return: a string representing sum
+        :return: a string representation of the sum 
         """
         return '{:b}'.format(sum([int(bin_str, base=2) for bin_str in bin_strs]))
 
